@@ -6,6 +6,37 @@
     <title>test1</title>
 </head>
 <body>
+    <h1>회원가입을 환영합니다.</h1>
     
+    <form action="">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li>
+                    <label for="account">아이디</label>
+                    <input type="text"
+                           minlength="4"
+                           maxlength="10"
+                           placeholder="4자 ~ 10자 사이, 공백없이"
+                           >
+                </li>
+                <li>
+                    <label for="email"></label>
+                    <input type="text">
+                </li>
+            </ul>
+        </fieldset>
+          <legend>이벤트와 새로운 소식</legend>
+           
+          <div>
+            <input type="radio" name="event" id="y" value="y">
+            <label for="y"></label>메일 수신></label> 
+            <input type="radio" name="event" id="n" value="n" checked>
+            <label for="y"></label>메일 수신 안함></label> 
+          </div>
+          <fieldset>
+          <button type="submit">가입하기</button>
+          <button type="reset">취소</button>
+    </form>
 </body>
 </html>
